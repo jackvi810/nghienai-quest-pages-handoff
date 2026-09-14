@@ -83,6 +83,6 @@ Test trình duyệt tự khởi động máy chủ Vite ở cổng `4173` để 
 
 - Gói không chứa `.env`, khóa API, `node_modules` hoặc dữ liệu localStorage của máy người đóng gói.
 - Không cần Supabase để chạy hai route này.
-- ZIP và repository phải được tạo từ cùng một commit/tag. Mã commit và SHA-256 của ZIP được ghi ở `docs/RELEASE-METADATA.md`.
+- ZIP và repository phải được tạo từ cùng một commit/tag. Mã commit/tag nằm ở `docs/RELEASE-METADATA.md`; SHA-256 được phát hành kèm ZIP trong file `.sha256` và phần đính kèm GitHub Release.
 - Asset chi tiết nằm trong [ASSET-MANIFEST.md](./ASSET-MANIFEST.md).
 - Checklist nghiệm thu nằm trong [QA-CHECKLIST.md](./QA-CHECKLIST.md).
